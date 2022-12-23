@@ -1,0 +1,261 @@
+body {
+    font-family: Roboto;
+    margin: 6%;
+    background-color: #f2e7df;
+  }
+  
+  section {
+    height: 20px;
+  }
+  
+  h1 {
+    font-size: 60px;
+    font-weight: 400;
+    height: 0.7;
+    font-family: 'Playfair Display';
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    font-weight: 300;
+    height: 10px;
+  }
+  
+  p {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  ul li {
+    color: #d5c4b2;
+    line-height: 1.5em;
+    height: auto;
+    list-style-type: none;
+  }
+  
+  footer {
+    position: relative;
+    top: 30px;
+    text-align: center;
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px 30px;
+    margin: 0 auto 30px auto;
+  }
+  
+  .color-panel {
+    padding: 0 12px;
+    margin: 9px auto;
+    height: 85px;
+    width: 180px;
+    display: inline-block;
+  }
+  
+  .color-label {
+    line-height: 0.3;
+    text-align: left;
+  }
+  
+  .color-hex {
+    line-height: 0.3;
+    text-align: right;
+    position: relative;
+    top: 28px;
+  }
+  
+  .primary {
+    background-color: #ecc289;
+    color: white;
+  }
+  
+  .primary-dark {
+    background-color: #ffb823;
+    color: #482c00;
+  }
+  
+  .secondary {
+    background-color: #715b3c;
+    color: white;
+  }
+  
+  .secondary-dark {
+    background-color: #e1c39c;
+    color: #483618;
+  }
+  
+  .tertiary {
+    background-color: #49653d;
+    color: white;
+  }
+  
+  .tertiary-dark {
+    background-color: #b0d09e;
+    color: #1c3612;
+  }
+  
+  .error {
+    background-color: #cb0003;
+    color: white;
+  }
+  
+  .error-dark {
+    background-color: #ffb0a8;
+    color: #861515;
+  }
+  
+  .neutral {
+    background-color: #645d56;
+    color: white;
+  }
+  
+  .neutral-dark {
+    background-color: #d5c4b2;
+    color: black;
+  }
+  
+  .block-container {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fffbff;
+    width: 58%;
+    border-radius: 12px;
+  }
+  
+  .block-container-dark {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    width: 58%;
+    border-radius: 12px;
+  }
+  
+  .block-panel {
+    margin: 12px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 9px;
+  }
+  
+  .z1 {
+    background-color: #faf3f2;
+    box-shadow: 0 1px 2px #d3cecf;
+  }
+  
+  .z1-dark {
+    background-color: #2b2318;
+  }
+  
+  .z2 {
+    background-color: #f6eeeb;
+    box-shadow: 0 2px 4px #d3cecf;
+  }
+  
+  .z2-dark {
+    background-color: #332818;
+  }
+  
+  .z3 {
+    background-color: #f3e9e2;
+    box-shadow: 0 3px 5px #d5d0d4;
+  }
+  
+  .z3-dark {
+    background-color: #392c19;
+  }
+  
+  .z4 {
+    background-color: #f2e7df;
+    box-shadow: 0 3px 6px #cac3c0;
+  }
+  
+  .z4-dark {
+    background-color: #3c2e19;
+  }
+  
+  .z5 {
+    background-color: #efe4da;
+    box-shadow: 0 3px 6px #a6a2a5;
+  }
+  
+  .z5-dark {
+    background-color: #40311a;
+  }
+  
+  .font-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .font {
+    margin: 12px;
+    padding: 0 12px;
+    display: inline-block;
+  }
+  
+  .font h3 {
+    position: relative;
+    bottom: 5px;
+  }
+  
+  .thin {
+    font-weight: 300;
+  }
+  
+  .regular {
+    font-weight: 400;
+  }
+  
+  .italic {
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .PDregular {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+  }
+  
+  .PDitalic {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .PDsemi-bold {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+  }
+  
+  .PDbold {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+  }
+  
+  .style-container {
+    padding: 0 30px;
+    margin-top: 50px;
+  }
+  
+  .style h1 {
+    position: relative;
+    height: 0.6em;
+    bottom: 50px;
+  }
+  
+  .style {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+  }
